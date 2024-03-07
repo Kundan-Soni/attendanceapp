@@ -1,5 +1,5 @@
 { 
-  "name":"vanila-nodejs-railway",
+  "name":"ats",
   "scripts": {
     "dev" : "nodemon backend/server.js",
     "start": "node backend/server.js"
