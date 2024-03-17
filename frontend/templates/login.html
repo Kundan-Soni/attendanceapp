@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,47 +9,39 @@
     <link rel="stylesheet" href="../css/login.css">
     <script src="../js/login.js"></script>
 </head>
+
 <body>
     <header class="header">
         <nav>
             <div class="logo-name">
                 Classroom
             </div>
-            <!-- <div class="you">
-                G
-            </div>  -->
             <div class="auth-div">
-                <button id ="signup-button" class="auth-button">signup</button>
+                <button id="signup-button" class="auth-button">signup</button>
             </div>
         </nav>
     </header>
     <main>
         <div class="loginDom">
-            <section class='connectSection'>
-      
-            </section>
-            <section class='inputSection'>
-              <div class="logo">
-      
-              </div>
-              <input id="emailInput" type="text" class='inputTextSection' placeholder=' Email' />
-            </section>
-            <section class='inputSection'>
-              <div class="logo">
-      
-              </div>
-              <input  id="passwordInput" type="password" class='inputTextSection' placeholder=' Password' />
-            </section>
-            <section class='other'>
-      
-            </section>
-            <section class='buttonSection'>
-              <button id="loginButton" class='loginButton'>Log In</button>
-            </section>
-          </div>
+            <div class="container" onclick>
+                <div class="top"></div> <!-- Placeholder for the top part of the container -->
+                <div class="bottom"></div> <!-- Placeholder for the bottom part of the container -->
+                <div class="center">
+                    <h2>Please Sign In</h2> <!-- Heading for the sign-in form -->
+                    <input type="email" placeholder="email" id="emailInput" class="inputTextSelection">
+                    <!-- Email input field -->
+                    <input type="password" placeholder="password" id="passwordInput" class="inputTextSection">
+                    <!-- Password input field -->
+                    <button type="button" id="loginButton" class="loginButton">Login</button> <!-- Login button -->
+                    <h2>&nbsp;</h2> <!-- Empty heading, possibly used for spacing -->
+                </div>
+            </div>
+
+        </div>
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
