@@ -43,6 +43,8 @@
   
   .auth-button:hover {
     background-color: #d94f5c;
+    text-decoration:underline ;
+    font-size: 17px;
   }
   
 /* ******************************* */
@@ -93,6 +95,8 @@ button.loginButton {
   button.loginButton:active {
     background-size: 600% 600%;
     background-position: 0 100%;
+    text-decoration: underline;
+    font-size: large;
   }
   
   
@@ -142,6 +146,7 @@ button.loginButton {
   color:#333;
   
   input{
+    position: relative;
     width:100%;
     padding:15px;
     margin:5px;
@@ -149,4 +154,9 @@ button.loginButton {
     border:1px solid #ccc;
     font-family:inherit;
   }
+}
+.container i {
+  position: absolute;
+   padding-right: 20px ;/*Adjust this value based on the width of your icon */
+  right: 20px;
 }
