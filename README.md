@@ -9,8 +9,10 @@ This project is an Attendance Management System created using pure HTML, CSS, an
 - User dashboard: Allows users to view their courses, mark attendance, and view their attendance history.
 - Course management: Enables administrators to create, update, and delete courses.
 - Attendance tracking: Records attendance for each user in respective courses.
+- Mobile App Support: Allows users to mark attendance or view their attendance status using a mobile app, enhancing      convenience.
 
 ## Technologies Used
+
 
 - HTML: Markup language for creating web pages.
 - CSS: Styling language for designing web pages.
