@@ -1,6 +1,7 @@
 # Attendance Management System
 
 This project is an Attendance Management System created using pure HTML, CSS, and vanilla JavaScript for the front-end, and PostgreSQL for the back-end.
+
 It works on PERN stack
 
 ## Features
