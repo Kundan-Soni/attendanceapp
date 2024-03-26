@@ -6,7 +6,7 @@
 }
 .header{
     height: 55px;
-    background-color: #6366f1;
+    background-color: #5da9b8;
 }
 nav{
     height: 100%;
@@ -76,6 +76,7 @@ nav{
 .name-logo:hover{
     opacity: 1;
     cursor: pointer;
+    background: linear-gradient(45deg, #e46569, #ecaf81, #60b8d4, #3745b5);
 }
 .option{
     z-index:100;
@@ -98,7 +99,7 @@ nav{
     border: none;
     outline: none;
     border-radius: 5px;
-    background-color: #5558ff;
+    background: linear-gradient(45deg, #e46569, #ecaf81, #60b8d4, #3745b5);
     opacity: 0.9;
     font-weight: 500;
     transition-property: opacity;
