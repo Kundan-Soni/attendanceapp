@@ -4,6 +4,9 @@
     box-sizing: border-box;
     /* background-color: #f3f3f7; */
 }
+/* body{
+    background-color: linear-gradient(45deg, #e46569, #ecaf81, #60b8d4, #3745b5);
+} */
 .header{
     height: 55px;
     background-color: #5da9b8;
@@ -109,6 +112,7 @@ nav{
 .logout-button:hover {
     opacity: 1;
     cursor: pointer;
+    text-decoration: underline;
 }
 main{
     height: auto;
@@ -137,7 +141,7 @@ main{
     width: 80vw;
     max-width: 500px;
     border-radius: 5px;
-    background-color: #ffff;
+    background-color:   linear-gradient(45deg, #e46569, #ecaf81, #60b8d4, #3745b5);
     padding: 10px;
 }
 .inputQuestion{
@@ -156,7 +160,7 @@ main{
     padding-left: 2px;
 }
 .inputQuestion:focus{
-    border-bottom-color:#6366f1;;
+    border-bottom-color:#6366f1;
 }
 .button-section{
     height: 80px;
@@ -171,7 +175,7 @@ main{
 .create-button{
     height: 46%;
     width: 100px;
-    color: #ffff;
+    color: #ffffff;
     border: none;
     outline: none;
     border-radius: 5px;
@@ -184,4 +188,7 @@ main{
 .create-button:hover{
     opacity: 1;
     cursor: pointer;
+    font-weight: 545;
+    text-decoration: underline;
+    background: linear-gradient(45deg, #e46569, #ecaf81, #60b8d4, #3745b5);
 }
