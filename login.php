@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/loader.css">
     <title>LoginPage</title>
 </head>
-<body>
+<body background ="SCE.jpg">
     <div class="loginform">
              <div class="inputgroup topmarginlarge">
                     <input type="text" id="txtUsername" required>
