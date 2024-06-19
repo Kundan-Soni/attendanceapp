@@ -1,25 +1,4 @@
 
-/*
-I will need this templet many times ahead
-$.ajax({
-        url:"ajaxhandler/attendanceAJAX.php",
-        type:"POST",
-        dataType:"json",
-        data:{},
-        beforeSend:function(e)
-        {
-
-        },
-        success:function(rv)
-        {
-
-        },
-        error:function(e)
-        {
-
-        }
-    });
-*/
 function  getSessionHTML(rv)
 {
     let x=``;

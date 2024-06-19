@@ -31,7 +31,7 @@ body{
 .loginform:hover{
     box-shadow: 0 0 100px 0px rgb(121, 97, 239),0 0 400px 10px rgb(121, 97, 239);
     animation: blink 1s infinite;
-    background-color: rgb(47, 45, 45);
+    /* background-color: rgb(47, 45, 45); */
 }
 @keyframes blink {
     0%,100%{

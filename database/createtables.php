@@ -202,8 +202,8 @@ values
   $c="insert into session_details
 (id,year,term)
 values
-(1,2023,'SPRING SEMESTER'),
-(2,2023,'AUTUMN SEMESTER')";
+(1,2024,'EVEN SEMESTER'),
+(2,2023,'ODD SEMESTER')";
 
   $s=$dbo->conn->prepare($c);
   try{

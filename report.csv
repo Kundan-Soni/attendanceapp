@@ -1,0 +1,17 @@
+Session:,"2024 EVEN SEMESTER"
+Course:,"BCST603-Data Analytics"
+Faculty:,"Sartaj Khan"
+total,2
+start,2024-05-01
+end,2024-05-14
+slno,rollno,name,attended,percent
+1,210410101064,"Kundan Kumar",1,50
+6,210410101069,Manu,2,100
+9,210410101073,Nadeem,0,0
+11,210410101077,Nidhi,1,50
+18,210410101110,Sudhanshu,1,50
+19,210410101111,"Tawar Mayank",0,0
+21,210410101114,Vijay,1,50
+22,210410101117,Vipul,0,0
+23,210410101120,"Yashraj Yadav",0,0
+24,210410101121,"Yashwant Yadav",0,0
